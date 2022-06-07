@@ -1,8 +1,8 @@
 {
-    "name": "InputActions",
+    "name": "FlashlightControls",
     "maps": [
         {
-            "name": "Default",
+            "name": "Flashlight",
             "id": "2f07b454-5f3a-461e-a432-395064b8ff26",
             "actions": [
                 {

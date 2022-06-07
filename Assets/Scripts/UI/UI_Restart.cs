@@ -17,6 +17,11 @@ namespace CockroachCore.UI
             onEnabled?.Invoke();
         }
 
+        public void ToggleMenu()
+        {
+            gameObject.SetActive(!gameObject.activeSelf);
+        }
+
         public void Restart()
         {
             if (!_controller)

@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 using UnityEngine.InputSystem;
 
 namespace CockroachCore
@@ -12,7 +12,7 @@ namespace CockroachCore
 
         private CircleCollider2D _flashlightCollider;
 
-        [SerializeField] private Light2D _light;
+        [SerializeField] private UnityEngine.Rendering.Universal.Light2D _light;
 
         [Range(0f, 100f)] [SerializeField] private float _speed = 100f;
 
